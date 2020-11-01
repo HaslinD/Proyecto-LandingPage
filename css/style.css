@@ -14,6 +14,26 @@ h1,h2,h3,h4,h5,h6{
 	
 }
 
+
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky{
+	background-color: #fff !important;
+}
+.header-area.sticky .navbar-light .navbar-nav .nav-link{
+	color: var(--color-azul-oscuro);
+}
+
+.header-area.sticky .navbar-light .navbar-brand {
+	color: var(--color-negro);
+}
+
 #hero{
 	background-image: url("../img/two_sides_by_ryky_dasdpdk-pre.jpg");
 	background-size: cover;
@@ -71,4 +91,27 @@ h1,h2,h3,h4,h5,h6{
 #contact {
 	text-align: center;
 	font-size: 15px;
+}
+
+.app-carousel {
+    padding: 0 6%;
+}
+
+.app-carousel .owl-item.active{
+	
+}
+
+.app-carousel .owl-dots {
+    text-align: center;
+}
+.app-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid #a49fba !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.app-carousel .owl-dot.active {
+    background-color: #fb397d;
+    border: 0 !important;
 }

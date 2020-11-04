@@ -225,3 +225,8 @@ footer p{
     background-color: #fb397d;
     border: 0 !important;
 }
+
+#suscribete {
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #fff;
+}
